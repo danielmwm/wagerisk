@@ -67,7 +67,7 @@ ctx.fillStyle = '#F0EDE8';
 ctx.fillRect(0, H - 80, W, 80);
 ctx.font = '22px sans-serif';
 ctx.fillStyle = '#9CA3AF';
-ctx.fillText('wagerisk.io', 60, H - 28);
+ctx.fillText('wagerisk.com', 60, H - 28);
 
 writeFileSync('public/og-image.png', canvas.toBuffer('image/png'));
 console.log('og-image.png written to public/');
