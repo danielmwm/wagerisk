@@ -273,7 +273,7 @@ export default function Home() {
               color: '#4ADE80', marginBottom: '20px',
             }}
           >
-            WageRisk.io — Canada's wage & risk intelligence tool
+            WageRisk.com — Canada's wage & risk intelligence tool
           </p>
 
           <h1

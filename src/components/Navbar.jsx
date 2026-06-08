@@ -49,7 +49,7 @@ export default function Navbar() {
                 position: 'relative',
               }}
             >
-              .io
+              .com
             </sup>
           </div>
         </Link>
