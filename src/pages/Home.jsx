@@ -273,7 +273,7 @@ export default function Home() {
               color: '#4ADE80', marginBottom: '20px',
             }}
           >
-            CareerLens.ca — Canada's career intelligence tool
+            WageRisk.io — Canada's wage & risk intelligence tool
           </p>
 
           <h1
@@ -459,7 +459,7 @@ export default function Home() {
 
       {/* ── 4. FEATURES ── */}
       <section style={{ backgroundColor: '#FFFFFF', padding: '52px 48px', borderBottom: '1px solid #E2DDD4' }}>
-        <p className="section-label" style={{ marginBottom: '36px' }}>What CareerLens does</p>
+        <p className="section-label" style={{ marginBottom: '36px' }}>What WageRisk does</p>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '40px' }}>
           <Feature
             icon={

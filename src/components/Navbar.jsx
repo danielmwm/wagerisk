@@ -30,13 +30,13 @@ export default function Navbar() {
               className="font-playfair"
               style={{ fontSize: '19px', fontWeight: 600, color: '#111827', letterSpacing: '-0.01em' }}
             >
-              Career
+              Wage
             </span>
             <span
               className="font-playfair"
               style={{ fontSize: '19px', fontWeight: 600, color: '#0C3D2E', letterSpacing: '-0.01em' }}
             >
-              Lens
+              Risk
             </span>
             <sup
               style={{
@@ -49,7 +49,7 @@ export default function Navbar() {
                 position: 'relative',
               }}
             >
-              .ca
+              .io
             </sup>
           </div>
         </Link>
@@ -63,7 +63,7 @@ export default function Navbar() {
             color: '#9CA3AF',
           }}
         >
-          Canada's career intelligence tool
+          Canada's wage & risk intelligence tool
         </span>
       </div>
 

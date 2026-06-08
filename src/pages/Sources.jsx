@@ -129,7 +129,7 @@ export default function Sources() {
             lineHeight: '1.5',
           }}
         >
-          Data is reviewed and updated annually. CareerLens is an independent tool and is not
+          Data is reviewed and updated annually. WageRisk is an independent tool and is not
           affiliated with any government agency.
         </p>
       </div>

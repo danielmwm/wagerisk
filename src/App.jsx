@@ -7,6 +7,7 @@ import Companies from './pages/Companies';
 import Compare from './pages/Compare';
 import Sources from './pages/Sources';
 import NotFound from './pages/NotFound';
+import ReviewsPreview from './pages/ReviewsPreview';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/companies" element={<Companies />} />
             <Route path="/compare" element={<Compare />} />
             <Route path="/sources" element={<Sources />} />
+            <Route path="/reviews-preview" element={<ReviewsPreview />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
