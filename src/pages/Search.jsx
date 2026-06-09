@@ -44,9 +44,9 @@ const CustomTooltip = ({ active, payload }) => {
       >
         <p style={{ fontWeight: 500, color: '#111827', marginBottom: '4px' }}>{d.name}</p>
         <p style={{ color: '#6B7280' }}>
-          <span style={{ color: getGradeColor(d.wageGrade) }}>W: {d.wageGrade}</span>
+          <span style={{ color: getGradeColor(d.wageGrade) }}>Wage: {d.wageGrade}</span>
           {' · '}
-          <span style={{ color: getGradeColor(d.securityGrade) }}>S: {d.securityGrade}</span>
+          <span style={{ color: getGradeColor(d.securityGrade) }}>Security: {d.securityGrade}</span>
         </p>
       </div>
     );
@@ -657,9 +657,9 @@ export default function Search() {
                 {c.name}
               </p>
               <p style={{ fontFamily: 'Inter', fontSize: '10px', color: '#9CA3AF' }}>
-                <span style={{ color: getGradeColor(c.wageGrade), fontWeight: 500 }}>W: {c.wageGrade}</span>
+                <span style={{ color: getGradeColor(c.wageGrade), fontWeight: 500 }}>Wage: {c.wageGrade}</span>
                 {' · '}
-                <span style={{ color: getGradeColor(c.securityGrade), fontWeight: 500 }}>S: {c.securityGrade}</span>
+                <span style={{ color: getGradeColor(c.securityGrade), fontWeight: 500 }}>Security: {c.securityGrade}</span>
               </p>
             </div>
           ))}

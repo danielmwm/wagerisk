@@ -203,7 +203,7 @@ function CareerCard({ career }) {
           fontFamily: 'Inter', fontSize: '11px', fontWeight: 500,
           color: getGradeColor(career.securityGrade),
         }}>
-          S: {career.securityGrade}
+          Security: {career.securityGrade}
         </span>
       </div>
     </Link>
@@ -582,9 +582,9 @@ export default function Home() {
                   {co.name}
                 </div>
                 <div style={{ fontFamily: 'Inter', fontSize: '10px', color: 'rgba(255,255,255,0.4)' }}>
-                  W: <span style={{ color: 'rgba(255,255,255,0.65)' }}>{co.wageGrade}</span>
+                  Wage: <span style={{ color: 'rgba(255,255,255,0.65)' }}>{co.wageGrade}</span>
                   {' · '}
-                  S: <span style={{ color: 'rgba(255,255,255,0.65)' }}>{co.securityGrade}</span>
+                  Security: <span style={{ color: 'rgba(255,255,255,0.65)' }}>{co.securityGrade}</span>
                 </div>
               </div>
             </Link>

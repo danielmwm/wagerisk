@@ -231,11 +231,11 @@ export default function Personalized() {
                       </p>
                       <p style={{ fontFamily: 'Inter', fontSize: '11px', color: '#9CA3AF' }}>
                         <span style={{ color: getGradeColor(career.wageGrade), fontWeight: 500 }}>
-                          W: {career.wageGrade}
+                          Wage: {career.wageGrade}
                         </span>
                         {' · '}
                         <span style={{ color: getGradeColor(career.securityGrade), fontWeight: 500 }}>
-                          S: {career.securityGrade}
+                          Security: {career.securityGrade}
                         </span>
                         {' · '}
                         {career.sector}

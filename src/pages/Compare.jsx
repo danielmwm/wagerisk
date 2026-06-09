@@ -45,7 +45,7 @@ const CustomDotTooltip = ({ active, payload }) => {
       }}>
         <p style={{ fontWeight: 500, color: '#111827', marginBottom: '3px' }}>{d.name}</p>
         <p style={{ color: '#6B7280' }}>
-          W: {d.wageScore} · S: {d.securityScore}
+          Wage: {d.wageScore} · Security: {d.securityScore}
         </p>
       </div>
     );
