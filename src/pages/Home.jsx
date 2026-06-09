@@ -3,7 +3,7 @@ import careers from '../data/careers.json';
 import companies from '../data/companies.json';
 import { getGradeColor } from '../utils/scoring';
 
-/* ── Scatter SVG – all 23 careers plotted by actual scores ── */
+/* ── Scatter SVG – all 79 careers plotted by actual scores ── */
 function CareerScatterSVG() {
   const W = 460, H = 310;
   const pad = { t: 24, r: 20, b: 30, l: 20 };
@@ -295,7 +295,7 @@ export default function Home() {
             }}
           >
             Wage grades, job security scores, and employment outlooks
-            for 23 Canadian occupations — ranked, compared, and graded A+ to F.
+            for 79 Canadian occupations — ranked, compared, and graded A+ to F.
           </p>
 
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginBottom: '40px' }}>
@@ -339,8 +339,8 @@ export default function Home() {
           {/* Mini stats */}
           <div style={{ display: 'flex', gap: '32px' }}>
             {[
-              { n: '23', label: 'occupations graded' },
-              { n: '12', label: 'top employers' },
+              { n: '79', label: 'occupations graded' },
+              { n: '97', label: 'top employers' },
               { n: '6', label: 'provinces' },
             ].map(({ n, label }) => (
               <div key={label}>
@@ -380,7 +380,7 @@ export default function Home() {
               Career landscape — wage vs. security
             </span>
             <span style={{ fontFamily: 'Inter', fontSize: '10px', color: 'rgba(255,255,255,0.2)' }}>
-              23 occupations
+              79 occupations
             </span>
           </div>
           <div style={{ padding: '12px 8px 8px' }}>
@@ -449,7 +449,7 @@ export default function Home() {
             onMouseEnter={e => { e.currentTarget.style.textDecoration = 'underline'; }}
             onMouseLeave={e => { e.currentTarget.style.textDecoration = 'none'; }}
           >
-            View all 23 →
+            View all 79 →
           </Link>
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: '10px' }}>
@@ -516,7 +516,7 @@ export default function Home() {
               className="font-playfair"
               style={{ fontSize: '26px', fontWeight: 600, color: '#FFFFFF', lineHeight: 1.2 }}
             >
-              12 of Canada's top employers, graded.
+              97 of Canada's top employers, graded.
             </h2>
           </div>
           <Link
