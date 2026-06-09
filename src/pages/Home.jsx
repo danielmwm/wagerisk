@@ -341,7 +341,7 @@ export default function Home() {
             {[
               { n: '79', label: 'occupations graded' },
               { n: '100+', label: 'top employers' },
-              { n: '6', label: 'provinces' },
+              { n: '13', label: 'provinces & territories' },
             ].map(({ n, label }) => (
               <div key={label}>
                 <div
