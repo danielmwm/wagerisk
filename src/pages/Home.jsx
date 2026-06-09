@@ -3,136 +3,111 @@ import careers from '../data/careers.json';
 import companies from '../data/companies.json';
 import { getGradeColor } from '../utils/scoring';
 
-/* ── Scatter SVG – all 79 careers plotted by actual scores ── */
+/* ── Scatter SVG ── */
 function CareerScatterSVG() {
-  const W = 460, H = 310;
-  const pad = { t: 24, r: 20, b: 30, l: 20 };
+  const W = 460, H = 300;
+  const pad = { t: 20, r: 24, b: 32, l: 34 };
   const plotW = W - pad.l - pad.r;
   const plotH = H - pad.t - pad.b;
 
   function toX(sec) { return pad.l + (sec / 100) * plotW; }
   function toY(wage) { return pad.t + plotH - (wage / 100) * plotH; }
 
-  const labelCareers = [
-    'physician', 'data-scientist', 'journalist', 'chef',
-    'registered-nurse', 'real-estate-agent', 'software-developer',
-  ];
+  // Curated subset — 31 careers spread across all four quadrants
+  const SHOW_IDS = new Set([
+    // Top-left: low security, high wage
+    'real-estate-agent', 'investment-advisor', 'financial-analyst',
+    'petroleum-engineer', 'commercial-pilot', 'graphic-designer',
+    // Top-right: spread across wage range
+    'physician', 'data-scientist', 'software-developer',
+    'actuary', 'dentist', 'air-traffic-controller', 'lawyer',
+    'cloud-architect', 'devops-engineer', 'nurse-practitioner',
+    // Top-right, lower wage
+    'registered-nurse', 'police-officer', 'electrician',
+    'plumber', 'elementary-teacher', 'paramedic',
+    // Bottom-left: tough territory
+    'journalist', 'chef',
+    // Bottom-right: safe but modest
+    'personal-support-worker', 'early-childhood-educator',
+    'social-worker', 'administrative-assistant',
+    // Mid-range fill
+    'web-developer', 'welder', 'hotel-manager',
+  ]);
+
+  const LABELS = {
+    'physician':         { dx: 8,   dy: -8,  anchor: 'start', name: 'Physician' },
+    'data-scientist':    { dx: -10, dy: -8,  anchor: 'end',   name: 'Data Scientist' },
+    'registered-nurse':  { dx: -10, dy:  5,  anchor: 'end',   name: 'Reg. Nurse' },
+    'real-estate-agent': { dx: 10,  dy: -8,  anchor: 'start', name: 'Real Estate' },
+    'journalist':        { dx: 10,  dy: 12,  anchor: 'start', name: 'Journalist' },
+  };
+
+  function dotColor(c) {
+    return c.wageGrade.startsWith('A') ? '#22C55E'
+      : c.wageGrade.startsWith('B') ? '#60A5FA'
+      : c.wageGrade.startsWith('C') ? '#FBBF24'
+      : '#F87171';
+  }
+
+  const visible = careers.filter(c => SHOW_IDS.has(c.id));
 
   return (
-    <svg
-      viewBox={`0 0 ${W} ${H}`}
-      width="100%"
-      height="100%"
-      style={{ display: 'block' }}
-      aria-label="Career landscape scatter plot"
-    >
-      {/* Plot background */}
-      <rect x={pad.l} y={pad.t} width={plotW} height={plotH} fill="#1A2A1E" rx="0" />
+    <svg viewBox={`0 0 ${W} ${H}`} width="100%" height="100%"
+      style={{ display: 'block' }} aria-label="Career landscape scatter plot">
 
-      {/* Quadrant lines */}
+      <rect x={pad.l} y={pad.t} width={plotW} height={plotH} fill="#1A2A1E" />
+
+      {/* Quadrant dividers */}
       <line x1={toX(50)} y1={pad.t} x2={toX(50)} y2={pad.t + plotH}
         stroke="#2D4A35" strokeWidth="1" strokeDasharray="4 3" />
       <line x1={pad.l} y1={toY(50)} x2={pad.l + plotW} y2={toY(50)}
         stroke="#2D4A35" strokeWidth="1" strokeDasharray="4 3" />
 
-      {/* Quadrant labels */}
-      <text x={toX(75)} y={pad.t + 13} textAnchor="middle"
-        fill="#3D6B4A" fontSize="8" fontFamily="Inter" letterSpacing="0.08em" textTransform="uppercase">
-        SWEET SPOT
-      </text>
-      <text x={toX(25)} y={pad.t + 13} textAnchor="middle"
-        fill="#3D4A3D" fontSize="8" fontFamily="Inter" letterSpacing="0.08em">
-        RISKY &amp; REWARDING
-      </text>
-      <text x={toX(75)} y={pad.t + plotH - 6} textAnchor="middle"
-        fill="#3D4A3D" fontSize="8" fontFamily="Inter" letterSpacing="0.08em">
+      {/* Quadrant labels — bottom corners only */}
+      <text x={toX(75)} y={pad.t + plotH - 8} textAnchor="middle"
+        fill="#3D6B4A" fontSize="7.5" fontFamily="Inter" letterSpacing="0.09em">
         SAFE &amp; MODEST
       </text>
-      <text x={toX(25)} y={pad.t + plotH - 6} textAnchor="middle"
-        fill="#3D4A3D" fontSize="8" fontFamily="Inter" letterSpacing="0.08em">
+      <text x={toX(25)} y={pad.t + plotH - 8} textAnchor="middle"
+        fill="#3D4A3D" fontSize="7.5" fontFamily="Inter" letterSpacing="0.09em">
         TOUGH TERRITORY
       </text>
 
-      {/* All career dots */}
-      {careers.map(c => {
-        const isLabeled = labelCareers.includes(c.id);
+      {/* Y-axis label */}
+      <text transform={`translate(12,${pad.t + plotH / 2}) rotate(-90)`}
+        textAnchor="middle" fill="#4B6B55" fontSize="8" fontFamily="Inter">
+        Wage →
+      </text>
+
+      {/* Background dots — small, curated subset only */}
+      {visible.filter(c => !LABELS[c.id]).map(c => (
+        <circle key={c.id}
+          cx={toX(c.securityScore)} cy={toY(c.wageScore)}
+          r="2.8" fill={dotColor(c)} opacity="0.55"
+        />
+      ))}
+
+      {/* Labeled dots — larger, full opacity, on top */}
+      {careers.filter(c => LABELS[c.id]).map(c => {
         const x = toX(c.securityScore);
         const y = toY(c.wageScore);
-        const color = c.wageGrade.startsWith('A') ? '#22C55E'
-          : c.wageGrade.startsWith('B') ? '#60A5FA'
-          : c.wageGrade.startsWith('C') ? '#FBBF24'
-          : '#F87171';
+        const cfg = LABELS[c.id];
         return (
           <g key={c.id}>
-            {/* Glow ring for labeled */}
-            {isLabeled && (
-              <circle cx={x} cy={y} r="11" fill={color} opacity="0.12" />
-            )}
-            <circle
-              cx={x} cy={y}
-              r={isLabeled ? 6 : 4.5}
-              fill={color}
-              opacity={isLabeled ? 1 : 0.7}
-            />
+            <circle cx={x} cy={y} r="5" fill={dotColor(c)} opacity="1" />
+            <text x={x + cfg.dx} y={y + cfg.dy}
+              fill="rgba(255,255,255,0.85)" fontSize="8.5"
+              fontFamily="Inter" fontWeight="500" textAnchor={cfg.anchor}>
+              {cfg.name}
+            </text>
           </g>
         );
       })}
 
-      {/* Labels for key careers */}
-      {careers.filter(c => labelCareers.includes(c.id)).map(c => {
-        const x = toX(c.securityScore);
-        const y = toY(c.wageScore);
-        const offsets = {
-          'physician': [8, -9],
-          'data-scientist': [8, -9],
-          'journalist': [-6, 13],
-          'chef': [0, 14],
-          'registered-nurse': [8, 4],
-          'real-estate-agent': [-6, 13],
-          'software-developer': [8, -9],
-        };
-        const [dx, dy] = offsets[c.id] ?? [8, -8];
-        const anchor = dx < 0 ? 'end' : 'start';
-        const shortName = {
-          'physician': 'Physician',
-          'data-scientist': 'Data Scientist',
-          'journalist': 'Journalist',
-          'chef': 'Chef',
-          'registered-nurse': 'Reg. Nurse',
-          'real-estate-agent': 'Real Estate',
-          'software-developer': 'Software Dev',
-        }[c.id] ?? c.name;
-        return (
-          <text key={c.id}
-            x={x + dx} y={y + dy}
-            fill="rgba(255,255,255,0.65)"
-            fontSize="9"
-            fontFamily="Inter"
-            fontWeight="500"
-            textAnchor={anchor}
-          >
-            {shortName}
-          </text>
-        );
-      })}
-
       {/* Axis labels */}
-      <text x={pad.l} y={H - 6} fill="#4B6B55" fontSize="9" fontFamily="Inter">Low security</text>
-      <text x={W / 2} y={H - 6} textAnchor="middle" fill="#4B6B55" fontSize="9" fontFamily="Inter">Job security →</text>
-      <text x={W - pad.r} y={H - 6} textAnchor="end" fill="#4B6B55" fontSize="9" fontFamily="Inter">High security</text>
-
-      {/* Legend */}
-      {[
-        { color: '#22C55E', label: 'A grade' },
-        { color: '#60A5FA', label: 'B grade' },
-        { color: '#FBBF24', label: 'C grade' },
-        { color: '#F87171', label: 'D/F' },
-      ].map(({ color, label }, i) => (
-        <g key={label} transform={`translate(${pad.l + i * 84}, ${pad.t + 4})`}>
-          <circle cx="5" cy="5" r="4" fill={color} opacity="0.85" />
-          <text x="13" y="9" fill="rgba(255,255,255,0.45)" fontSize="8" fontFamily="Inter">{label}</text>
-        </g>
-      ))}
+      <text x={pad.l} y={H - 9} fill="#4B6B55" fontSize="8.5" fontFamily="Inter">Low security</text>
+      <text x={W / 2} y={H - 9} textAnchor="middle" fill="#4B6B55" fontSize="8.5" fontFamily="Inter">Job security →</text>
+      <text x={W - pad.r} y={H - 9} textAnchor="end" fill="#4B6B55" fontSize="8.5" fontFamily="Inter">High security</text>
     </svg>
   );
 }
@@ -369,7 +344,7 @@ export default function Home() {
         >
           <div
             style={{
-              padding: '10px 14px 4px',
+              padding: '10px 14px 8px',
               borderBottom: '1px solid rgba(255,255,255,0.06)',
               display: 'flex',
               justifyContent: 'space-between',
@@ -379,9 +354,19 @@ export default function Home() {
             <span style={{ fontFamily: 'Inter', fontSize: '10px', color: 'rgba(255,255,255,0.3)', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
               Career landscape — wage vs. security
             </span>
-            <span style={{ fontFamily: 'Inter', fontSize: '10px', color: 'rgba(255,255,255,0.2)' }}>
-              150+ occupations
-            </span>
+            <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+              {[
+                { color: '#22C55E', label: 'A' },
+                { color: '#60A5FA', label: 'B' },
+                { color: '#FBBF24', label: 'C' },
+                { color: '#F87171', label: 'D/F' },
+              ].map(({ color, label }) => (
+                <span key={label} style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                  <span style={{ width: '7px', height: '7px', borderRadius: '50%', backgroundColor: color, display: 'inline-block', opacity: 0.9 }} />
+                  <span style={{ fontFamily: 'Inter', fontSize: '9px', color: 'rgba(255,255,255,0.35)' }}>{label}</span>
+                </span>
+              ))}
+            </div>
           </div>
           <div style={{ padding: '12px 8px 8px' }}>
             <CareerScatterSVG />
