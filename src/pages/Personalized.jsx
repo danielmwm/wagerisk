@@ -15,7 +15,7 @@ const SLIDERS = [
   { key: 'wage', label: 'Wage / Salary', default: 70 },
   { key: 'growth', label: 'Growth Potential', default: 60 },
   { key: 'workLife', label: 'Work-Life Balance', default: 50 },
-  { key: 'automation', label: 'Automation Resistance', default: 55 },
+  { key: 'automation', label: 'Future-Proof (Hard to Automate)', default: 55 },
 ];
 
 const inputStyle = {
@@ -174,7 +174,7 @@ export default function Personalized() {
               Adjust the sliders to reflect what matters most to you, then click{' '}
               <strong style={{ fontWeight: 500, color: '#6B7280' }}>Find My Careers</strong> to see
               your top-matched occupations ranked by a weighted score across wage, security, growth,
-              work-life balance, and automation resistance.
+              work-life balance, and how hard the job is to automate.
             </p>
           ) : results.length === 0 ? (
             <p style={{ fontFamily: 'Inter', fontSize: '13px', color: '#9CA3AF', lineHeight: '1.6' }}>

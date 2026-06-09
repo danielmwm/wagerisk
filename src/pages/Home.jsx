@@ -468,7 +468,7 @@ export default function Home() {
               </svg>
             }
             title="Personalised ranking"
-            description="Drag five sliders to weight what matters most to you — security, wage, growth, work-life balance, automation resistance — and get your top career matches ranked by a composite score."
+            description="Drag five sliders to weight what matters most to you — security, wage, growth, work-life balance, and how hard the job is to automate — and get your top career matches ranked by a composite score."
             to="/personalized"
             cta="Try the matcher"
           />

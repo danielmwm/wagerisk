@@ -21,7 +21,7 @@ const ROW_CONFIG = [
   { key: 'wage', label: 'Median hourly wage', fmt: c => `$${adjustedWage(c.medianHourly, PROVINCE)}/hr`, isBetter: (a, b) => a.medianHourly >= b.medianHourly ? 0 : 1 },
   { key: 'unemploymentRate', label: 'Unemployment rate', fmt: c => c.unemploymentRate, isBetter: (a, b) => parseFloat(a.unemploymentRate) <= parseFloat(b.unemploymentRate) ? 0 : 1 },
   { key: 'permanentPercent', label: 'Permanent employment', fmt: c => c.permanentPercent, isBetter: (a, b) => parseFloat(a.permanentPercent) >= parseFloat(b.permanentPercent) ? 0 : 1 },
-  { key: 'automationRisk', label: 'Automation risk', fmt: c => c.automationRisk, isBetter: (a, b) => {
+  { key: 'automationRisk', label: 'AI replacement risk', fmt: c => c.automationRisk, isBetter: (a, b) => {
     const order = ['Very Low','Low','Moderate','High','Very High'];
     return order.indexOf(a.automationRisk) <= order.indexOf(b.automationRisk) ? 0 : 1;
   }},

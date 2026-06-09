@@ -549,7 +549,7 @@ export default function Search() {
               { label: '2024–28 outlook', value: <OutlookDot outlook={selected.outlook} />, isComponent: true },
               { label: 'Unemployment rate', value: selected.unemploymentRate },
               { label: 'Permanent employment', value: selected.permanentPercent },
-              { label: 'Automation risk', value: selected.automationRisk },
+              { label: 'AI replacement risk', value: selected.automationRisk },
             ].map(({ label, value, isComponent }, i, arr) => (
               <div
                 key={label}
