@@ -15,7 +15,7 @@ const SLIDERS = [
   { key: 'wage', label: 'Wage / Salary', default: 70 },
   { key: 'growth', label: 'Growth Potential', default: 60 },
   { key: 'workLife', label: 'Work-Life Balance', default: 50 },
-  { key: 'automation', label: 'Future-Proof (Hard to Automate)', default: 55 },
+  { key: 'automation', label: 'AI Proof', default: 55 },
 ];
 
 const inputStyle = {
