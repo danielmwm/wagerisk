@@ -13,7 +13,13 @@
     "wageGrade": "C+",
     "securityGrade": "A+",
     "balanceRating": 7.8,
-    "positions": ["Policy Analyst", "IT Specialist", "Border Officer", "Communications Advisor", "Financial Officer"]
+    "positions": [
+      "Policy Analyst",
+      "IT Specialist",
+      "Border Officer",
+      "Communications Advisor",
+      "Financial Officer"
+    ]
   },
   {
     "id": "royal-bank",
@@ -29,7 +35,13 @@
     "wageGrade": "A−",
     "securityGrade": "A−",
     "balanceRating": 6.5,
-    "positions": ["Financial Advisor", "Risk Analyst", "Software Engineer", "Capital Markets Associate", "Branch Manager"]
+    "positions": [
+      "Financial Advisor",
+      "Risk Analyst",
+      "Software Engineer",
+      "Capital Markets Associate",
+      "Branch Manager"
+    ]
   },
   {
     "id": "td-bank",
@@ -45,7 +57,13 @@
     "wageGrade": "B+",
     "securityGrade": "B+",
     "balanceRating": 6.8,
-    "positions": ["Financial Planner", "Commercial Account Manager", "Software Engineer", "Risk & Compliance Analyst", "Branch Manager"]
+    "positions": [
+      "Financial Planner",
+      "Commercial Account Manager",
+      "Software Engineer",
+      "Risk & Compliance Analyst",
+      "Branch Manager"
+    ]
   },
   {
     "id": "scotiabank",
@@ -61,7 +79,13 @@
     "wageGrade": "B+",
     "securityGrade": "B+",
     "balanceRating": 6.6,
-    "positions": ["Wealth Advisor", "Credit Analyst", "Software Developer", "Compliance Officer", "Relationship Manager"]
+    "positions": [
+      "Wealth Advisor",
+      "Credit Analyst",
+      "Software Developer",
+      "Compliance Officer",
+      "Relationship Manager"
+    ]
   },
   {
     "id": "bmo",
@@ -77,7 +101,13 @@
     "wageGrade": "B+",
     "securityGrade": "B+",
     "balanceRating": 6.7,
-    "positions": ["Investment Banker", "Financial Planner", "Data Analyst", "IT Project Manager", "Commercial Banker"]
+    "positions": [
+      "Investment Banker",
+      "Financial Planner",
+      "Data Analyst",
+      "IT Project Manager",
+      "Commercial Banker"
+    ]
   },
   {
     "id": "cibc",
@@ -93,7 +123,13 @@
     "wageGrade": "B",
     "securityGrade": "B+",
     "balanceRating": 6.6,
-    "positions": ["Financial Advisor", "Mortgage Specialist", "Technology Analyst", "Audit Manager", "Business Analyst"]
+    "positions": [
+      "Financial Advisor",
+      "Mortgage Specialist",
+      "Technology Analyst",
+      "Audit Manager",
+      "Business Analyst"
+    ]
   },
   {
     "id": "national-bank",
@@ -108,8 +144,14 @@
     "growthScore": 66,
     "wageGrade": "B",
     "securityGrade": "B+",
-    "balanceRating": 7.0,
-    "positions": ["Financial Planner", "Credit Analyst", "Capital Markets Analyst", "IT Developer", "Compliance Officer"]
+    "balanceRating": 7,
+    "positions": [
+      "Financial Planner",
+      "Credit Analyst",
+      "Capital Markets Analyst",
+      "IT Developer",
+      "Compliance Officer"
+    ]
   },
   {
     "id": "manulife",
@@ -125,7 +167,13 @@
     "wageGrade": "B+",
     "securityGrade": "B+",
     "balanceRating": 6.8,
-    "positions": ["Actuarial Analyst", "Underwriter", "Software Developer", "Wealth Advisor", "Claims Analyst"]
+    "positions": [
+      "Actuarial Analyst",
+      "Underwriter",
+      "Software Developer",
+      "Wealth Advisor",
+      "Claims Analyst"
+    ]
   },
   {
     "id": "sun-life",
@@ -140,8 +188,14 @@
     "growthScore": 68,
     "wageGrade": "B+",
     "securityGrade": "B+",
-    "balanceRating": 7.0,
-    "positions": ["Financial Advisor", "Actuary", "Data Scientist", "Benefits Consultant", "Risk Manager"]
+    "balanceRating": 7,
+    "positions": [
+      "Financial Advisor",
+      "Actuary",
+      "Data Scientist",
+      "Benefits Consultant",
+      "Risk Manager"
+    ]
   },
   {
     "id": "intact-financial",
@@ -156,8 +210,14 @@
     "growthScore": 68,
     "wageGrade": "B",
     "securityGrade": "B+",
-    "balanceRating": 7.0,
-    "positions": ["Claims Adjuster", "Underwriter", "Data Analyst", "Software Developer", "Actuary"]
+    "balanceRating": 7,
+    "positions": [
+      "Claims Adjuster",
+      "Underwriter",
+      "Data Analyst",
+      "Software Developer",
+      "Actuary"
+    ]
   },
   {
     "id": "brookfield",
@@ -173,7 +233,13 @@
     "wageGrade": "A+",
     "securityGrade": "B",
     "balanceRating": 5.2,
-    "positions": ["Investment Analyst", "Portfolio Manager", "Asset Manager", "Financial Analyst", "Private Equity Associate"]
+    "positions": [
+      "Investment Analyst",
+      "Portfolio Manager",
+      "Asset Manager",
+      "Financial Analyst",
+      "Private Equity Associate"
+    ]
   },
   {
     "id": "power-corp",
@@ -189,7 +255,13 @@
     "wageGrade": "A−",
     "securityGrade": "B",
     "balanceRating": 6.6,
-    "positions": ["Investment Analyst", "Compliance Officer", "Financial Reporting Analyst", "Corporate Counsel", "Strategy Manager"]
+    "positions": [
+      "Investment Analyst",
+      "Compliance Officer",
+      "Financial Reporting Analyst",
+      "Corporate Counsel",
+      "Strategy Manager"
+    ]
   },
   {
     "id": "google-canada",
@@ -205,7 +277,13 @@
     "wageGrade": "A+",
     "securityGrade": "B",
     "balanceRating": 7.2,
-    "positions": ["Software Engineer", "Product Manager", "UX Researcher", "Data Engineer", "Sales Engineer"]
+    "positions": [
+      "Software Engineer",
+      "Product Manager",
+      "UX Researcher",
+      "Data Engineer",
+      "Sales Engineer"
+    ]
   },
   {
     "id": "microsoft-canada",
@@ -221,7 +299,13 @@
     "wageGrade": "A+",
     "securityGrade": "B",
     "balanceRating": 7.4,
-    "positions": ["Software Engineer", "Cloud Solutions Architect", "Product Manager", "Data Scientist", "Technical Program Manager"]
+    "positions": [
+      "Software Engineer",
+      "Cloud Solutions Architect",
+      "Product Manager",
+      "Data Scientist",
+      "Technical Program Manager"
+    ]
   },
   {
     "id": "apple-canada",
@@ -237,7 +321,13 @@
     "wageGrade": "A+",
     "securityGrade": "B",
     "balanceRating": 6.8,
-    "positions": ["Software Engineer", "Hardware Engineer", "Retail Manager", "Product Designer", "Machine Learning Engineer"]
+    "positions": [
+      "Software Engineer",
+      "Hardware Engineer",
+      "Retail Manager",
+      "Product Designer",
+      "Machine Learning Engineer"
+    ]
   },
   {
     "id": "meta-canada",
@@ -253,7 +343,13 @@
     "wageGrade": "A+",
     "securityGrade": "C+",
     "balanceRating": 6.4,
-    "positions": ["Software Engineer", "Data Scientist", "Product Manager", "ML Engineer", "Research Scientist"]
+    "positions": [
+      "Software Engineer",
+      "Data Scientist",
+      "Product Manager",
+      "ML Engineer",
+      "Research Scientist"
+    ]
   },
   {
     "id": "shopify",
@@ -269,7 +365,13 @@
     "wageGrade": "A+",
     "securityGrade": "C+",
     "balanceRating": 6.8,
-    "positions": ["Software Developer", "Data Scientist", "Growth Analyst", "Solutions Engineer", "Product Designer"]
+    "positions": [
+      "Software Developer",
+      "Data Scientist",
+      "Growth Analyst",
+      "Solutions Engineer",
+      "Product Designer"
+    ]
   },
   {
     "id": "amazon-canada",
@@ -285,7 +387,13 @@
     "wageGrade": "A",
     "securityGrade": "C",
     "balanceRating": 4.4,
-    "positions": ["Software Development Engineer", "Operations Manager", "Data Analyst", "Product Manager", "Solutions Architect"]
+    "positions": [
+      "Software Development Engineer",
+      "Operations Manager",
+      "Data Analyst",
+      "Product Manager",
+      "Solutions Architect"
+    ]
   },
   {
     "id": "ibm-canada",
@@ -301,7 +409,13 @@
     "wageGrade": "B+",
     "securityGrade": "C+",
     "balanceRating": 6.8,
-    "positions": ["Software Engineer", "Data Scientist", "Cloud Consultant", "Systems Architect", "AI Researcher"]
+    "positions": [
+      "Software Engineer",
+      "Data Scientist",
+      "Cloud Consultant",
+      "Systems Architect",
+      "AI Researcher"
+    ]
   },
   {
     "id": "oracle-canada",
@@ -317,7 +431,13 @@
     "wageGrade": "A",
     "securityGrade": "B−",
     "balanceRating": 6.2,
-    "positions": ["Cloud Engineer", "Database Administrator", "Sales Engineer", "Software Developer", "Consultant"]
+    "positions": [
+      "Cloud Engineer",
+      "Database Administrator",
+      "Sales Engineer",
+      "Software Developer",
+      "Consultant"
+    ]
   },
   {
     "id": "salesforce-canada",
@@ -332,8 +452,14 @@
     "growthScore": 80,
     "wageGrade": "A",
     "securityGrade": "C+",
-    "balanceRating": 7.0,
-    "positions": ["Solutions Engineer", "Account Executive", "Software Developer", "Implementation Consultant", "Product Manager"]
+    "balanceRating": 7,
+    "positions": [
+      "Solutions Engineer",
+      "Account Executive",
+      "Software Developer",
+      "Implementation Consultant",
+      "Product Manager"
+    ]
   },
   {
     "id": "opentext",
@@ -349,7 +475,13 @@
     "wageGrade": "A−",
     "securityGrade": "B−",
     "balanceRating": 6.6,
-    "positions": ["Software Engineer", "Cloud Architect", "Product Manager", "Support Analyst", "Sales Engineer"]
+    "positions": [
+      "Software Engineer",
+      "Cloud Architect",
+      "Product Manager",
+      "Support Analyst",
+      "Sales Engineer"
+    ]
   },
   {
     "id": "cgi-group",
@@ -365,7 +497,13 @@
     "wageGrade": "B",
     "securityGrade": "B",
     "balanceRating": 6.8,
-    "positions": ["IT Consultant", "Systems Analyst", "Software Developer", "Project Manager", "Business Analyst"]
+    "positions": [
+      "IT Consultant",
+      "Systems Analyst",
+      "Software Developer",
+      "Project Manager",
+      "Business Analyst"
+    ]
   },
   {
     "id": "cisco-canada",
@@ -381,7 +519,13 @@
     "wageGrade": "A",
     "securityGrade": "B",
     "balanceRating": 7.2,
-    "positions": ["Network Engineer", "Software Engineer", "Sales Engineer", "Cybersecurity Analyst", "Solutions Architect"]
+    "positions": [
+      "Network Engineer",
+      "Software Engineer",
+      "Sales Engineer",
+      "Cybersecurity Analyst",
+      "Solutions Architect"
+    ]
   },
   {
     "id": "sap-canada",
@@ -397,7 +541,13 @@
     "wageGrade": "A",
     "securityGrade": "B−",
     "balanceRating": 6.8,
-    "positions": ["ERP Consultant", "Software Engineer", "Solutions Architect", "Implementation Specialist", "Account Executive"]
+    "positions": [
+      "ERP Consultant",
+      "Software Engineer",
+      "Solutions Architect",
+      "Implementation Specialist",
+      "Account Executive"
+    ]
   },
   {
     "id": "blackberry",
@@ -413,7 +563,13 @@
     "wageGrade": "B+",
     "securityGrade": "C+",
     "balanceRating": 6.6,
-    "positions": ["Cybersecurity Analyst", "Software Engineer", "QA Engineer", "Product Manager", "Embedded Systems Developer"]
+    "positions": [
+      "Cybersecurity Analyst",
+      "Software Engineer",
+      "QA Engineer",
+      "Product Manager",
+      "Embedded Systems Developer"
+    ]
   },
   {
     "id": "lightspeed",
@@ -429,7 +585,13 @@
     "wageGrade": "A−",
     "securityGrade": "C",
     "balanceRating": 6.6,
-    "positions": ["Software Developer", "Data Analyst", "Implementation Specialist", "Account Manager", "Product Designer"]
+    "positions": [
+      "Software Developer",
+      "Data Analyst",
+      "Implementation Specialist",
+      "Account Manager",
+      "Product Designer"
+    ]
   },
   {
     "id": "bell-canada",
@@ -445,7 +607,13 @@
     "wageGrade": "B−",
     "securityGrade": "A−",
     "balanceRating": 7.2,
-    "positions": ["Network Engineer", "Project Manager", "Sales Representative", "IT Systems Analyst", "Customer Experience Mgr"]
+    "positions": [
+      "Network Engineer",
+      "Project Manager",
+      "Sales Representative",
+      "IT Systems Analyst",
+      "Customer Experience Mgr"
+    ]
   },
   {
     "id": "rogers",
@@ -461,7 +629,13 @@
     "wageGrade": "B−",
     "securityGrade": "B",
     "balanceRating": 6.6,
-    "positions": ["Network Engineer", "Software Developer", "Account Manager", "Data Analyst", "Project Manager"]
+    "positions": [
+      "Network Engineer",
+      "Software Developer",
+      "Account Manager",
+      "Data Analyst",
+      "Project Manager"
+    ]
   },
   {
     "id": "telus",
@@ -477,7 +651,13 @@
     "wageGrade": "B",
     "securityGrade": "B+",
     "balanceRating": 7.4,
-    "positions": ["Network Architect", "Software Engineer", "Health Technology Analyst", "Customer Solutions Mgr", "Data Scientist"]
+    "positions": [
+      "Network Architect",
+      "Software Engineer",
+      "Health Technology Analyst",
+      "Customer Solutions Mgr",
+      "Data Scientist"
+    ]
   },
   {
     "id": "suncor",
@@ -492,8 +672,14 @@
     "growthScore": 52,
     "wageGrade": "A−",
     "securityGrade": "B−",
-    "balanceRating": 6.0,
-    "positions": ["Petroleum Engineer", "Plant Operator", "Environmental Scientist", "Project Engineer", "Safety Advisor"]
+    "balanceRating": 6,
+    "positions": [
+      "Petroleum Engineer",
+      "Plant Operator",
+      "Environmental Scientist",
+      "Project Engineer",
+      "Safety Advisor"
+    ]
   },
   {
     "id": "cenovus",
@@ -509,7 +695,13 @@
     "wageGrade": "A−",
     "securityGrade": "C+",
     "balanceRating": 6.2,
-    "positions": ["Process Engineer", "Reservoir Engineer", "HSE Specialist", "IT Analyst", "Project Manager"]
+    "positions": [
+      "Process Engineer",
+      "Reservoir Engineer",
+      "HSE Specialist",
+      "IT Analyst",
+      "Project Manager"
+    ]
   },
   {
     "id": "cnrl",
@@ -525,7 +717,13 @@
     "wageGrade": "A",
     "securityGrade": "B−",
     "balanceRating": 5.8,
-    "positions": ["Petroleum Engineer", "Instrumentation Technician", "Environmental Coordinator", "Operations Supervisor", "Geologist"]
+    "positions": [
+      "Petroleum Engineer",
+      "Instrumentation Technician",
+      "Environmental Coordinator",
+      "Operations Supervisor",
+      "Geologist"
+    ]
   },
   {
     "id": "imperial-oil",
@@ -541,7 +739,13 @@
     "wageGrade": "A−",
     "securityGrade": "B−",
     "balanceRating": 6.2,
-    "positions": ["Chemical Engineer", "Refinery Operator", "Environmental Scientist", "Project Manager", "Safety Coordinator"]
+    "positions": [
+      "Chemical Engineer",
+      "Refinery Operator",
+      "Environmental Scientist",
+      "Project Manager",
+      "Safety Coordinator"
+    ]
   },
   {
     "id": "tc-energy",
@@ -557,7 +761,13 @@
     "wageGrade": "B+",
     "securityGrade": "B+",
     "balanceRating": 6.8,
-    "positions": ["Pipeline Engineer", "Project Manager", "Environmental Analyst", "Mechanical Engineer", "Operations Technician"]
+    "positions": [
+      "Pipeline Engineer",
+      "Project Manager",
+      "Environmental Analyst",
+      "Mechanical Engineer",
+      "Operations Technician"
+    ]
   },
   {
     "id": "enbridge",
@@ -572,8 +782,14 @@
     "growthScore": 56,
     "wageGrade": "B",
     "securityGrade": "A−",
-    "balanceRating": 7.0,
-    "positions": ["Pipeline Engineer", "Project Manager", "GIS Analyst", "Environmental Compliance Officer", "Integrity Engineer"]
+    "balanceRating": 7,
+    "positions": [
+      "Pipeline Engineer",
+      "Project Manager",
+      "GIS Analyst",
+      "Environmental Compliance Officer",
+      "Integrity Engineer"
+    ]
   },
   {
     "id": "hydro-quebec",
@@ -588,8 +804,14 @@
     "growthScore": 54,
     "wageGrade": "B",
     "securityGrade": "A+",
-    "balanceRating": 8.0,
-    "positions": ["Electrical Engineer", "IT Developer", "Project Manager", "Maintenance Technician", "Environmental Analyst"]
+    "balanceRating": 8,
+    "positions": [
+      "Electrical Engineer",
+      "IT Developer",
+      "Project Manager",
+      "Maintenance Technician",
+      "Environmental Analyst"
+    ]
   },
   {
     "id": "ontario-power-generation",
@@ -605,7 +827,13 @@
     "wageGrade": "B+",
     "securityGrade": "A",
     "balanceRating": 7.6,
-    "positions": ["Nuclear Engineer", "Control Room Operator", "Environmental Specialist", "Project Engineer", "Maintenance Electrician"]
+    "positions": [
+      "Nuclear Engineer",
+      "Control Room Operator",
+      "Environmental Specialist",
+      "Project Engineer",
+      "Maintenance Electrician"
+    ]
   },
   {
     "id": "barrick-gold",
@@ -621,7 +849,13 @@
     "wageGrade": "A−",
     "securityGrade": "C+",
     "balanceRating": 5.8,
-    "positions": ["Mining Engineer", "Geologist", "Metallurgist", "Environmental Manager", "Heavy Equipment Operator"]
+    "positions": [
+      "Mining Engineer",
+      "Geologist",
+      "Metallurgist",
+      "Environmental Manager",
+      "Heavy Equipment Operator"
+    ]
   },
   {
     "id": "teck-resources",
@@ -637,7 +871,13 @@
     "wageGrade": "B+",
     "securityGrade": "C+",
     "balanceRating": 5.8,
-    "positions": ["Mining Engineer", "Geologist", "Environmental Specialist", "Process Engineer", "Safety Officer"]
+    "positions": [
+      "Mining Engineer",
+      "Geologist",
+      "Environmental Specialist",
+      "Process Engineer",
+      "Safety Officer"
+    ]
   },
   {
     "id": "agnico-eagle",
@@ -652,8 +892,14 @@
     "growthScore": 62,
     "wageGrade": "B+",
     "securityGrade": "C+",
-    "balanceRating": 6.0,
-    "positions": ["Mining Engineer", "Geologist", "Maintenance Planner", "Environmental Coordinator", "Finance Analyst"]
+    "balanceRating": 6,
+    "positions": [
+      "Mining Engineer",
+      "Geologist",
+      "Maintenance Planner",
+      "Environmental Coordinator",
+      "Finance Analyst"
+    ]
   },
   {
     "id": "cameco",
@@ -669,7 +915,13 @@
     "wageGrade": "B+",
     "securityGrade": "B−",
     "balanceRating": 6.4,
-    "positions": ["Nuclear Scientist", "Mining Engineer", "Environmental Specialist", "Radiation Safety Officer", "Chemical Engineer"]
+    "positions": [
+      "Nuclear Scientist",
+      "Mining Engineer",
+      "Environmental Specialist",
+      "Radiation Safety Officer",
+      "Chemical Engineer"
+    ]
   },
   {
     "id": "deloitte-canada",
@@ -684,8 +936,14 @@
     "growthScore": 82,
     "wageGrade": "A−",
     "securityGrade": "B−",
-    "balanceRating": 5.0,
-    "positions": ["Consultant", "Audit Associate", "Tax Specialist", "Technology Analyst", "Strategy Manager"]
+    "balanceRating": 5,
+    "positions": [
+      "Consultant",
+      "Audit Associate",
+      "Tax Specialist",
+      "Technology Analyst",
+      "Strategy Manager"
+    ]
   },
   {
     "id": "pwc-canada",
@@ -701,7 +959,13 @@
     "wageGrade": "B+",
     "securityGrade": "B−",
     "balanceRating": 5.2,
-    "positions": ["Audit Associate", "Tax Consultant", "Management Consultant", "Deals Analyst", "Risk Assurance Manager"]
+    "positions": [
+      "Audit Associate",
+      "Tax Consultant",
+      "Management Consultant",
+      "Deals Analyst",
+      "Risk Assurance Manager"
+    ]
   },
   {
     "id": "kpmg-canada",
@@ -717,7 +981,13 @@
     "wageGrade": "B+",
     "securityGrade": "B−",
     "balanceRating": 5.4,
-    "positions": ["Audit Associate", "Tax Advisor", "IT Consultant", "Forensic Analyst", "Advisory Manager"]
+    "positions": [
+      "Audit Associate",
+      "Tax Advisor",
+      "IT Consultant",
+      "Forensic Analyst",
+      "Advisory Manager"
+    ]
   },
   {
     "id": "ey-canada",
@@ -733,7 +1003,13 @@
     "wageGrade": "B+",
     "securityGrade": "B−",
     "balanceRating": 5.2,
-    "positions": ["Assurance Associate", "Tax Analyst", "Transaction Advisory Analyst", "Consulting Manager", "IT Risk Advisor"]
+    "positions": [
+      "Assurance Associate",
+      "Tax Analyst",
+      "Transaction Advisory Analyst",
+      "Consulting Manager",
+      "IT Risk Advisor"
+    ]
   },
   {
     "id": "accenture-canada",
@@ -748,8 +1024,14 @@
     "growthScore": 84,
     "wageGrade": "A−",
     "securityGrade": "C+",
-    "balanceRating": 5.0,
-    "positions": ["Technology Consultant", "Data Engineer", "Change Management Analyst", "Cloud Architect", "Strategy Consultant"]
+    "balanceRating": 5,
+    "positions": [
+      "Technology Consultant",
+      "Data Engineer",
+      "Change Management Analyst",
+      "Cloud Architect",
+      "Strategy Consultant"
+    ]
   },
   {
     "id": "mckinsey-canada",
@@ -765,7 +1047,13 @@
     "wageGrade": "A+",
     "securityGrade": "C+",
     "balanceRating": 3.6,
-    "positions": ["Business Analyst", "Associate", "Engagement Manager", "Data Scientist", "Strategy Consultant"]
+    "positions": [
+      "Business Analyst",
+      "Associate",
+      "Engagement Manager",
+      "Data Scientist",
+      "Strategy Consultant"
+    ]
   },
   {
     "id": "bcg-canada",
@@ -781,7 +1069,13 @@
     "wageGrade": "A+",
     "securityGrade": "C+",
     "balanceRating": 3.8,
-    "positions": ["Associate", "Consultant", "Project Leader", "Data Scientist", "Strategy Analyst"]
+    "positions": [
+      "Associate",
+      "Consultant",
+      "Project Leader",
+      "Data Scientist",
+      "Strategy Analyst"
+    ]
   },
   {
     "id": "university-toronto",
@@ -797,7 +1091,13 @@
     "wageGrade": "C+",
     "securityGrade": "A",
     "balanceRating": 8.2,
-    "positions": ["Research Associate", "Administrative Officer", "IT Specialist", "Finance Officer", "HR Business Partner"]
+    "positions": [
+      "Research Associate",
+      "Administrative Officer",
+      "IT Specialist",
+      "Finance Officer",
+      "HR Business Partner"
+    ]
   },
   {
     "id": "mcgill-university",
@@ -813,7 +1113,13 @@
     "wageGrade": "C+",
     "securityGrade": "A",
     "balanceRating": 8.4,
-    "positions": ["Research Scientist", "Professor", "Administrative Coordinator", "Lab Technician", "IT Analyst"]
+    "positions": [
+      "Research Scientist",
+      "Professor",
+      "Administrative Coordinator",
+      "Lab Technician",
+      "IT Analyst"
+    ]
   },
   {
     "id": "alberta-health-services",
@@ -829,7 +1135,13 @@
     "wageGrade": "B−",
     "securityGrade": "A",
     "balanceRating": 6.6,
-    "positions": ["Registered Nurse", "Physician", "Medical Lab Technologist", "Health Information Analyst", "Pharmacist"]
+    "positions": [
+      "Registered Nurse",
+      "Physician",
+      "Medical Lab Technologist",
+      "Health Information Analyst",
+      "Pharmacist"
+    ]
   },
   {
     "id": "johnson-johnson-canada",
@@ -844,8 +1156,14 @@
     "growthScore": 70,
     "wageGrade": "A−",
     "securityGrade": "B",
-    "balanceRating": 7.0,
-    "positions": ["Medical Sales Rep", "Regulatory Affairs Specialist", "Clinical Research Associate", "Marketing Manager", "Quality Engineer"]
+    "balanceRating": 7,
+    "positions": [
+      "Medical Sales Rep",
+      "Regulatory Affairs Specialist",
+      "Clinical Research Associate",
+      "Marketing Manager",
+      "Quality Engineer"
+    ]
   },
   {
     "id": "pfizer-canada",
@@ -860,8 +1178,14 @@
     "growthScore": 68,
     "wageGrade": "A",
     "securityGrade": "B",
-    "balanceRating": 7.0,
-    "positions": ["Medical Science Liaison", "Regulatory Specialist", "Clinical Trial Manager", "Data Scientist", "Pharmacovigilance Analyst"]
+    "balanceRating": 7,
+    "positions": [
+      "Medical Science Liaison",
+      "Regulatory Specialist",
+      "Clinical Trial Manager",
+      "Data Scientist",
+      "Pharmacovigilance Analyst"
+    ]
   },
   {
     "id": "astrazeneca-canada",
@@ -876,8 +1200,14 @@
     "growthScore": 70,
     "wageGrade": "A−",
     "securityGrade": "B",
-    "balanceRating": 7.0,
-    "positions": ["Medical Affairs Manager", "Sales Specialist", "Regulatory Affairs", "Clinical Research", "Marketing Analyst"]
+    "balanceRating": 7,
+    "positions": [
+      "Medical Affairs Manager",
+      "Sales Specialist",
+      "Regulatory Affairs",
+      "Clinical Research",
+      "Marketing Analyst"
+    ]
   },
   {
     "id": "apotex",
@@ -893,7 +1223,13 @@
     "wageGrade": "B−",
     "securityGrade": "B",
     "balanceRating": 6.6,
-    "positions": ["Pharmaceutical Scientist", "Quality Assurance Specialist", "Regulatory Affairs", "Production Supervisor", "Lab Analyst"]
+    "positions": [
+      "Pharmaceutical Scientist",
+      "Quality Assurance Specialist",
+      "Regulatory Affairs",
+      "Production Supervisor",
+      "Lab Analyst"
+    ]
   },
   {
     "id": "bausch-health",
@@ -909,7 +1245,13 @@
     "wageGrade": "B",
     "securityGrade": "C+",
     "balanceRating": 6.2,
-    "positions": ["Sales Representative", "Medical Affairs Specialist", "Finance Analyst", "Regulatory Specialist", "Marketing Manager"]
+    "positions": [
+      "Sales Representative",
+      "Medical Affairs Specialist",
+      "Finance Analyst",
+      "Regulatory Specialist",
+      "Marketing Manager"
+    ]
   },
   {
     "id": "cn-rail",
@@ -925,7 +1267,13 @@
     "wageGrade": "B",
     "securityGrade": "A",
     "balanceRating": 6.2,
-    "positions": ["Locomotive Engineer", "Track Maintenance", "Operations Analyst", "IT Systems Engineer", "Safety & Compliance Officer"]
+    "positions": [
+      "Locomotive Engineer",
+      "Track Maintenance",
+      "Operations Analyst",
+      "IT Systems Engineer",
+      "Safety & Compliance Officer"
+    ]
   },
   {
     "id": "cp-rail",
@@ -940,8 +1288,14 @@
     "growthScore": 58,
     "wageGrade": "B",
     "securityGrade": "A−",
-    "balanceRating": 6.0,
-    "positions": ["Locomotive Engineer", "Track Inspector", "Mechanical Technician", "Operations Planner", "Safety Officer"]
+    "balanceRating": 6,
+    "positions": [
+      "Locomotive Engineer",
+      "Track Inspector",
+      "Mechanical Technician",
+      "Operations Planner",
+      "Safety Officer"
+    ]
   },
   {
     "id": "air-canada",
@@ -957,7 +1311,13 @@
     "wageGrade": "B",
     "securityGrade": "C+",
     "balanceRating": 5.8,
-    "positions": ["Pilot", "Flight Attendant", "Aircraft Maintenance Engineer", "Revenue Analyst", "Airport Operations Manager"]
+    "positions": [
+      "Pilot",
+      "Flight Attendant",
+      "Aircraft Maintenance Engineer",
+      "Revenue Analyst",
+      "Airport Operations Manager"
+    ]
   },
   {
     "id": "canada-post",
@@ -972,8 +1332,14 @@
     "growthScore": 42,
     "wageGrade": "C+",
     "securityGrade": "A−",
-    "balanceRating": 7.0,
-    "positions": ["Letter Carrier", "Mail Processing", "IT Developer", "Operations Supervisor", "Retail Associate"]
+    "balanceRating": 7,
+    "positions": [
+      "Letter Carrier",
+      "Mail Processing",
+      "IT Developer",
+      "Operations Supervisor",
+      "Retail Associate"
+    ]
   },
   {
     "id": "ups-canada",
@@ -989,7 +1355,13 @@
     "wageGrade": "C+",
     "securityGrade": "B",
     "balanceRating": 5.8,
-    "positions": ["Package Delivery Driver", "Operations Supervisor", "IT Analyst", "Industrial Engineer", "Customer Solutions Manager"]
+    "positions": [
+      "Package Delivery Driver",
+      "Operations Supervisor",
+      "IT Analyst",
+      "Industrial Engineer",
+      "Customer Solutions Manager"
+    ]
   },
   {
     "id": "fedex-canada",
@@ -1005,7 +1377,13 @@
     "wageGrade": "C+",
     "securityGrade": "B",
     "balanceRating": 5.8,
-    "positions": ["Courier", "Operations Manager", "Customs Broker", "IT Analyst", "Logistics Coordinator"]
+    "positions": [
+      "Courier",
+      "Operations Manager",
+      "Customs Broker",
+      "IT Analyst",
+      "Logistics Coordinator"
+    ]
   },
   {
     "id": "tfi-international",
@@ -1021,7 +1399,13 @@
     "wageGrade": "C+",
     "securityGrade": "B−",
     "balanceRating": 5.8,
-    "positions": ["Truck Driver", "Dispatcher", "Operations Manager", "Fleet Coordinator", "Logistics Analyst"]
+    "positions": [
+      "Truck Driver",
+      "Dispatcher",
+      "Operations Manager",
+      "Fleet Coordinator",
+      "Logistics Analyst"
+    ]
   },
   {
     "id": "bombardier",
@@ -1037,7 +1421,13 @@
     "wageGrade": "B",
     "securityGrade": "C+",
     "balanceRating": 6.2,
-    "positions": ["Aerospace Engineer", "Manufacturing Technician", "Project Manager", "Quality Inspector", "Supply Chain Analyst"]
+    "positions": [
+      "Aerospace Engineer",
+      "Manufacturing Technician",
+      "Project Manager",
+      "Quality Inspector",
+      "Supply Chain Analyst"
+    ]
   },
   {
     "id": "pratt-whitney-canada",
@@ -1053,7 +1443,13 @@
     "wageGrade": "A−",
     "securityGrade": "B",
     "balanceRating": 6.8,
-    "positions": ["Aerospace Engineer", "Mechanical Engineer", "Turbine Technician", "Quality Engineer", "Manufacturing Engineer"]
+    "positions": [
+      "Aerospace Engineer",
+      "Mechanical Engineer",
+      "Turbine Technician",
+      "Quality Engineer",
+      "Manufacturing Engineer"
+    ]
   },
   {
     "id": "cae",
@@ -1069,7 +1465,13 @@
     "wageGrade": "B+",
     "securityGrade": "B",
     "balanceRating": 6.8,
-    "positions": ["Simulation Engineer", "Software Developer", "Aerospace Systems Engineer", "Project Manager", "Defence Analyst"]
+    "positions": [
+      "Simulation Engineer",
+      "Software Developer",
+      "Aerospace Systems Engineer",
+      "Project Manager",
+      "Defence Analyst"
+    ]
   },
   {
     "id": "magna-international",
@@ -1085,7 +1487,13 @@
     "wageGrade": "C+",
     "securityGrade": "B",
     "balanceRating": 6.4,
-    "positions": ["Manufacturing Engineer", "Quality Technician", "Supply Chain Analyst", "Skilled Tradesperson", "Plant Manager"]
+    "positions": [
+      "Manufacturing Engineer",
+      "Quality Technician",
+      "Supply Chain Analyst",
+      "Skilled Tradesperson",
+      "Plant Manager"
+    ]
   },
   {
     "id": "linamar",
@@ -1101,7 +1509,13 @@
     "wageGrade": "C+",
     "securityGrade": "B",
     "balanceRating": 6.2,
-    "positions": ["Machinist", "Manufacturing Engineer", "CNC Programmer", "Quality Inspector", "Production Supervisor"]
+    "positions": [
+      "Machinist",
+      "Manufacturing Engineer",
+      "CNC Programmer",
+      "Quality Inspector",
+      "Production Supervisor"
+    ]
   },
   {
     "id": "martinrea",
@@ -1116,8 +1530,14 @@
     "growthScore": 56,
     "wageGrade": "C+",
     "securityGrade": "B−",
-    "balanceRating": 6.0,
-    "positions": ["Stamping Press Operator", "Welding Technician", "Quality Engineer", "Tooling Designer", "Plant Manager"]
+    "balanceRating": 6,
+    "positions": [
+      "Stamping Press Operator",
+      "Welding Technician",
+      "Quality Engineer",
+      "Tooling Designer",
+      "Plant Manager"
+    ]
   },
   {
     "id": "snc-lavalin",
@@ -1133,7 +1553,13 @@
     "wageGrade": "B",
     "securityGrade": "C+",
     "balanceRating": 6.4,
-    "positions": ["Civil Engineer", "Project Manager", "Environmental Consultant", "Structural Engineer", "Construction Supervisor"]
+    "positions": [
+      "Civil Engineer",
+      "Project Manager",
+      "Environmental Consultant",
+      "Structural Engineer",
+      "Construction Supervisor"
+    ]
   },
   {
     "id": "wsp-global",
@@ -1149,7 +1575,13 @@
     "wageGrade": "B",
     "securityGrade": "B−",
     "balanceRating": 6.6,
-    "positions": ["Civil Engineer", "Environmental Consultant", "Structural Engineer", "Project Manager", "Transportation Planner"]
+    "positions": [
+      "Civil Engineer",
+      "Environmental Consultant",
+      "Structural Engineer",
+      "Project Manager",
+      "Transportation Planner"
+    ]
   },
   {
     "id": "stantec",
@@ -1165,7 +1597,13 @@
     "wageGrade": "B",
     "securityGrade": "B",
     "balanceRating": 6.8,
-    "positions": ["Environmental Engineer", "Urban Planner", "Civil Engineer", "Project Coordinator", "Geotechnical Engineer"]
+    "positions": [
+      "Environmental Engineer",
+      "Urban Planner",
+      "Civil Engineer",
+      "Project Coordinator",
+      "Geotechnical Engineer"
+    ]
   },
   {
     "id": "pcl-construction",
@@ -1180,8 +1618,14 @@
     "growthScore": 62,
     "wageGrade": "B",
     "securityGrade": "B−",
-    "balanceRating": 6.0,
-    "positions": ["Project Manager", "Site Superintendent", "Estimator", "Structural Engineer", "Safety Officer"]
+    "balanceRating": 6,
+    "positions": [
+      "Project Manager",
+      "Site Superintendent",
+      "Estimator",
+      "Structural Engineer",
+      "Safety Officer"
+    ]
   },
   {
     "id": "walmart-canada",
@@ -1197,7 +1641,13 @@
     "wageGrade": "D",
     "securityGrade": "B",
     "balanceRating": 5.8,
-    "positions": ["Store Manager", "Department Manager", "E-Commerce Analyst", "Supply Chain Coordinator", "HR Generalist"]
+    "positions": [
+      "Store Manager",
+      "Department Manager",
+      "E-Commerce Analyst",
+      "Supply Chain Coordinator",
+      "HR Generalist"
+    ]
   },
   {
     "id": "costco-canada",
@@ -1212,8 +1662,14 @@
     "growthScore": 58,
     "wageGrade": "C+",
     "securityGrade": "B+",
-    "balanceRating": 7.0,
-    "positions": ["Warehouse Associate", "Pharmacy Manager", "Optical Manager", "Buying Analyst", "Operations Manager"]
+    "balanceRating": 7,
+    "positions": [
+      "Warehouse Associate",
+      "Pharmacy Manager",
+      "Optical Manager",
+      "Buying Analyst",
+      "Operations Manager"
+    ]
   },
   {
     "id": "loblaw",
@@ -1229,7 +1685,13 @@
     "wageGrade": "C",
     "securityGrade": "C+",
     "balanceRating": 6.2,
-    "positions": ["Pharmacy Manager", "Store Manager", "Supply Chain Coordinator", "Data Analyst", "Human Resources Advisor"]
+    "positions": [
+      "Pharmacy Manager",
+      "Store Manager",
+      "Supply Chain Coordinator",
+      "Data Analyst",
+      "Human Resources Advisor"
+    ]
   },
   {
     "id": "empire-sobeys",
@@ -1245,7 +1707,13 @@
     "wageGrade": "C",
     "securityGrade": "C+",
     "balanceRating": 6.2,
-    "positions": ["Store Manager", "Pharmacy Manager", "Supply Chain Analyst", "IT Developer", "Category Manager"]
+    "positions": [
+      "Store Manager",
+      "Pharmacy Manager",
+      "Supply Chain Analyst",
+      "IT Developer",
+      "Category Manager"
+    ]
   },
   {
     "id": "metro-inc",
@@ -1261,7 +1729,13 @@
     "wageGrade": "C",
     "securityGrade": "B−",
     "balanceRating": 6.4,
-    "positions": ["Store Director", "Pharmacist", "Supply Chain Specialist", "Finance Analyst", "HR Coordinator"]
+    "positions": [
+      "Store Director",
+      "Pharmacist",
+      "Supply Chain Specialist",
+      "Finance Analyst",
+      "HR Coordinator"
+    ]
   },
   {
     "id": "couche-tard",
@@ -1277,7 +1751,13 @@
     "wageGrade": "D+",
     "securityGrade": "B",
     "balanceRating": 6.2,
-    "positions": ["Store Manager", "District Manager", "Fuel Buyer", "Real Estate Analyst", "Finance Manager"]
+    "positions": [
+      "Store Manager",
+      "District Manager",
+      "Fuel Buyer",
+      "Real Estate Analyst",
+      "Finance Manager"
+    ]
   },
   {
     "id": "canadian-tire",
@@ -1293,7 +1773,13 @@
     "wageGrade": "D+",
     "securityGrade": "B−",
     "balanceRating": 6.6,
-    "positions": ["Retail Manager", "Automotive Technician", "Supply Chain Analyst", "E-Commerce Developer", "HR Generalist"]
+    "positions": [
+      "Retail Manager",
+      "Automotive Technician",
+      "Supply Chain Analyst",
+      "E-Commerce Developer",
+      "HR Generalist"
+    ]
   },
   {
     "id": "dollarama",
@@ -1308,8 +1794,14 @@
     "growthScore": 66,
     "wageGrade": "C",
     "securityGrade": "B",
-    "balanceRating": 6.0,
-    "positions": ["Store Manager", "District Manager", "Logistics Coordinator", "Buyer", "Inventory Analyst"]
+    "balanceRating": 6,
+    "positions": [
+      "Store Manager",
+      "District Manager",
+      "Logistics Coordinator",
+      "Buyer",
+      "Inventory Analyst"
+    ]
   },
   {
     "id": "ikea-canada",
@@ -1324,8 +1816,14 @@
     "growthScore": 54,
     "wageGrade": "C+",
     "securityGrade": "B−",
-    "balanceRating": 7.0,
-    "positions": ["Interior Design Consultant", "Store Manager", "Supply Chain Analyst", "HR Generalist", "Visual Merchandiser"]
+    "balanceRating": 7,
+    "positions": [
+      "Interior Design Consultant",
+      "Store Manager",
+      "Supply Chain Analyst",
+      "HR Generalist",
+      "Visual Merchandiser"
+    ]
   },
   {
     "id": "rbi",
@@ -1340,8 +1838,14 @@
     "growthScore": 66,
     "wageGrade": "B",
     "securityGrade": "B−",
-    "balanceRating": 6.0,
-    "positions": ["Brand Manager", "Finance Analyst", "Operations Consultant", "Digital Marketing Manager", "Supply Chain Director"]
+    "balanceRating": 6,
+    "positions": [
+      "Brand Manager",
+      "Finance Analyst",
+      "Operations Consultant",
+      "Digital Marketing Manager",
+      "Supply Chain Director"
+    ]
   },
   {
     "id": "molson-coors",
@@ -1357,7 +1861,13 @@
     "wageGrade": "B−",
     "securityGrade": "B",
     "balanceRating": 6.8,
-    "positions": ["Brewery Technician", "Brand Manager", "Sales Representative", "Supply Chain Analyst", "Quality Assurance Specialist"]
+    "positions": [
+      "Brewery Technician",
+      "Brand Manager",
+      "Sales Representative",
+      "Supply Chain Analyst",
+      "Quality Assurance Specialist"
+    ]
   },
   {
     "id": "nestle-canada",
@@ -1373,7 +1883,13 @@
     "wageGrade": "B",
     "securityGrade": "B",
     "balanceRating": 6.8,
-    "positions": ["Food Technologist", "Brand Manager", "Sales Representative", "Supply Chain Analyst", "Finance Manager"]
+    "positions": [
+      "Food Technologist",
+      "Brand Manager",
+      "Sales Representative",
+      "Supply Chain Analyst",
+      "Finance Manager"
+    ]
   },
   {
     "id": "pepsico-canada",
@@ -1389,7 +1905,13 @@
     "wageGrade": "B",
     "securityGrade": "B",
     "balanceRating": 6.6,
-    "positions": ["Sales Representative", "Supply Chain Analyst", "Brand Manager", "Finance Analyst", "Operations Manager"]
+    "positions": [
+      "Sales Representative",
+      "Supply Chain Analyst",
+      "Brand Manager",
+      "Finance Analyst",
+      "Operations Manager"
+    ]
   },
   {
     "id": "saputo",
@@ -1405,7 +1927,13 @@
     "wageGrade": "C+",
     "securityGrade": "B",
     "balanceRating": 6.6,
-    "positions": ["Food Technologist", "Plant Supervisor", "Supply Chain Analyst", "Quality Assurance Technician", "Sales Representative"]
+    "positions": [
+      "Food Technologist",
+      "Plant Supervisor",
+      "Supply Chain Analyst",
+      "Quality Assurance Technician",
+      "Sales Representative"
+    ]
   },
   {
     "id": "maple-leaf-foods",
@@ -1421,7 +1949,13 @@
     "wageGrade": "C+",
     "securityGrade": "B−",
     "balanceRating": 6.4,
-    "positions": ["Food Scientist", "Operations Manager", "Supply Chain Coordinator", "Maintenance Technician", "HSE Specialist"]
+    "positions": [
+      "Food Scientist",
+      "Operations Manager",
+      "Supply Chain Coordinator",
+      "Maintenance Technician",
+      "HSE Specialist"
+    ]
   },
   {
     "id": "unilever-canada",
@@ -1437,7 +1971,13 @@
     "wageGrade": "B",
     "securityGrade": "B−",
     "balanceRating": 6.8,
-    "positions": ["Brand Manager", "Supply Chain Analyst", "Sales Manager", "R&D Scientist", "Finance Business Partner"]
+    "positions": [
+      "Brand Manager",
+      "Supply Chain Analyst",
+      "Sales Manager",
+      "R&D Scientist",
+      "Finance Business Partner"
+    ]
   },
   {
     "id": "procter-gamble-canada",
@@ -1453,7 +1993,13 @@
     "wageGrade": "A−",
     "securityGrade": "B−",
     "balanceRating": 6.8,
-    "positions": ["Brand Manager", "Supply Chain Engineer", "Finance Manager", "Sales Account Manager", "R&D Engineer"]
+    "positions": [
+      "Brand Manager",
+      "Supply Chain Engineer",
+      "Finance Manager",
+      "Sales Account Manager",
+      "R&D Engineer"
+    ]
   },
   {
     "id": "siemens-canada",
@@ -1469,7 +2015,13 @@
     "wageGrade": "A−",
     "securityGrade": "B",
     "balanceRating": 6.8,
-    "positions": ["Electrical Engineer", "Software Engineer", "Project Manager", "Service Technician", "Sales Engineer"]
+    "positions": [
+      "Electrical Engineer",
+      "Software Engineer",
+      "Project Manager",
+      "Service Technician",
+      "Sales Engineer"
+    ]
   },
   {
     "id": "honeywell-canada",
@@ -1485,7 +2037,13 @@
     "wageGrade": "B+",
     "securityGrade": "B−",
     "balanceRating": 6.6,
-    "positions": ["Controls Engineer", "Software Developer", "Aerospace Technician", "Project Manager", "Sales Engineer"]
+    "positions": [
+      "Controls Engineer",
+      "Software Developer",
+      "Aerospace Technician",
+      "Project Manager",
+      "Sales Engineer"
+    ]
   },
   {
     "id": "3m-canada",
@@ -1501,7 +2059,13 @@
     "wageGrade": "B+",
     "securityGrade": "B",
     "balanceRating": 6.8,
-    "positions": ["R&D Scientist", "Manufacturing Engineer", "Sales Representative", "Supply Chain Analyst", "Quality Engineer"]
+    "positions": [
+      "R&D Scientist",
+      "Manufacturing Engineer",
+      "Sales Representative",
+      "Supply Chain Analyst",
+      "Quality Engineer"
+    ]
   },
   {
     "id": "cbc",
@@ -1517,7 +2081,13 @@
     "wageGrade": "C+",
     "securityGrade": "B+",
     "balanceRating": 7.4,
-    "positions": ["Journalist", "Video Producer", "Software Developer", "Communications Advisor", "Digital Content Manager"]
+    "positions": [
+      "Journalist",
+      "Video Producer",
+      "Software Developer",
+      "Communications Advisor",
+      "Digital Content Manager"
+    ]
   },
   {
     "id": "rogers-media",
@@ -1533,7 +2103,13 @@
     "wageGrade": "C+",
     "securityGrade": "C+",
     "balanceRating": 6.6,
-    "positions": ["Broadcast Journalist", "Digital Producer", "Sales Manager", "Marketing Analyst", "Content Strategist"]
+    "positions": [
+      "Broadcast Journalist",
+      "Digital Producer",
+      "Sales Manager",
+      "Marketing Analyst",
+      "Content Strategist"
+    ]
   },
   {
     "id": "quebecor",
@@ -1549,38 +2125,12 @@
     "wageGrade": "C+",
     "securityGrade": "B−",
     "balanceRating": 6.6,
-    "positions": ["Journalist", "Network Technician", "Software Developer", "Sales Advisor", "Finance Analyst"]
-  },
-  {
-    "id": "wsp-global",
-    "name": "WSP Global",
-    "sector": "Engineering & Construction",
-    "initials": "WSP",
-    "accentColor": "#7C1A1A",
-    "accentBg": "#FEF2F2",
-    "wageScore": 74,
-    "securityScore": 70,
-    "balanceScore": 66,
-    "growthScore": 68,
-    "wageGrade": "B",
-    "securityGrade": "B−",
-    "balanceRating": 6.6,
-    "positions": ["Civil Engineer", "Environmental Consultant", "Structural Engineer", "Project Manager", "Transportation Planner"]
-  },
-  {
-    "id": "stantec",
-    "name": "Stantec",
-    "sector": "Engineering & Consulting",
-    "initials": "STN",
-    "accentColor": "#1B4332",
-    "accentBg": "#E8F4F0",
-    "wageScore": 72,
-    "securityScore": 72,
-    "balanceScore": 68,
-    "growthScore": 66,
-    "wageGrade": "B",
-    "securityGrade": "B",
-    "balanceRating": 6.8,
-    "positions": ["Environmental Engineer", "Urban Planner", "Civil Engineer", "Project Coordinator", "Geotechnical Engineer"]
+    "positions": [
+      "Journalist",
+      "Network Technician",
+      "Software Developer",
+      "Sales Advisor",
+      "Finance Analyst"
+    ]
   }
 ]
