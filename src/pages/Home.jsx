@@ -295,7 +295,7 @@ export default function Home() {
             }}
           >
             Wage grades, job security scores, and employment outlooks
-            for 79 Canadian occupations — ranked, compared, and graded A+ to F.
+            for 150+ Canadian occupations — ranked, compared, and graded A+ to F.
           </p>
 
           <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginBottom: '40px' }}>
@@ -339,7 +339,7 @@ export default function Home() {
           {/* Mini stats */}
           <div style={{ display: 'flex', gap: '32px' }}>
             {[
-              { n: '79', label: 'occupations graded' },
+              { n: '150+', label: 'occupations graded' },
               { n: '100+', label: 'top employers' },
               { n: '13', label: 'provinces & territories' },
             ].map(({ n, label }) => (
@@ -380,7 +380,7 @@ export default function Home() {
               Career landscape — wage vs. security
             </span>
             <span style={{ fontFamily: 'Inter', fontSize: '10px', color: 'rgba(255,255,255,0.2)' }}>
-              79 occupations
+              150+ occupations
             </span>
           </div>
           <div style={{ padding: '12px 8px 8px' }}>
@@ -449,7 +449,7 @@ export default function Home() {
             onMouseEnter={e => { e.currentTarget.style.textDecoration = 'underline'; }}
             onMouseLeave={e => { e.currentTarget.style.textDecoration = 'none'; }}
           >
-            View all 79 →
+            View all 150+ →
           </Link>
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: '10px' }}>
