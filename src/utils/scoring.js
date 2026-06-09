@@ -49,6 +49,13 @@ export const PROVINCE_MULTIPLIERS = {
   Quebec: 0.94,
   Saskatchewan: 0.97,
   Manitoba: 0.95,
+  'Nova Scotia': 0.88,
+  'New Brunswick': 0.87,
+  'Prince Edward Island': 0.86,
+  'Newfoundland and Labrador': 0.91,
+  'Northwest Territories': 1.18,
+  Yukon: 1.14,
+  Nunavut: 1.22,
 };
 
 export function adjustedWage(medianHourly, province) {

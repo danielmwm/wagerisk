@@ -340,7 +340,7 @@ export default function Home() {
           <div style={{ display: 'flex', gap: '32px' }}>
             {[
               { n: '79', label: 'occupations graded' },
-              { n: '97', label: 'top employers' },
+              { n: '100+', label: 'top employers' },
               { n: '6', label: 'provinces' },
             ].map(({ n, label }) => (
               <div key={label}>
@@ -516,7 +516,7 @@ export default function Home() {
               className="font-playfair"
               style={{ fontSize: '26px', fontWeight: 600, color: '#FFFFFF', lineHeight: 1.2 }}
             >
-              97 of Canada's top employers, graded.
+              100+ of Canada's top employers, graded.
             </h2>
           </div>
           <Link

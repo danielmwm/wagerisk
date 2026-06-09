@@ -2132,5 +2132,225 @@
       "Sales Advisor",
       "Finance Analyst"
     ]
+  },
+  {
+    "id": "hydro-one",
+    "name": "Hydro One",
+    "sector": "Energy & Utilities",
+    "initials": "H1",
+    "accentColor": "#C8102E",
+    "accentBg": "#FEF2F2",
+    "wageScore": 73,
+    "securityScore": 88,
+    "balanceScore": 74,
+    "growthScore": 52,
+    "wageGrade": "C+",
+    "securityGrade": "A−",
+    "balanceRating": 7.4,
+    "positions": [
+      "Electrical Engineer",
+      "Lineworker",
+      "IT Analyst",
+      "Operations Manager",
+      "Field Technician"
+    ]
+  },
+  {
+    "id": "bc-hydro",
+    "name": "BC Hydro",
+    "sector": "Energy & Utilities",
+    "initials": "BCH",
+    "accentColor": "#005B8E",
+    "accentBg": "#EFF6FF",
+    "wageScore": 74,
+    "securityScore": 87,
+    "balanceScore": 75,
+    "growthScore": 50,
+    "wageGrade": "C+",
+    "securityGrade": "A−",
+    "balanceRating": 7.5,
+    "positions": [
+      "Electrical Engineer",
+      "Power Systems Operator",
+      "IT Specialist",
+      "Trades Worker",
+      "Environmental Analyst"
+    ]
+  },
+  {
+    "id": "canada-life",
+    "name": "Canada Life",
+    "sector": "Insurance",
+    "initials": "CL",
+    "accentColor": "#006B3F",
+    "accentBg": "#F0FDF4",
+    "wageScore": 78,
+    "securityScore": 80,
+    "balanceScore": 70,
+    "growthScore": 65,
+    "wageGrade": "B−",
+    "securityGrade": "B",
+    "balanceRating": 7,
+    "positions": [
+      "Actuary",
+      "Financial Advisor",
+      "Underwriter",
+      "Claims Analyst",
+      "IT Developer"
+    ]
+  },
+  {
+    "id": "ia-financial",
+    "name": "iA Financial Group",
+    "sector": "Insurance",
+    "initials": "iA",
+    "accentColor": "#003DA5",
+    "accentBg": "#EFF6FF",
+    "wageScore": 75,
+    "securityScore": 79,
+    "balanceScore": 71,
+    "growthScore": 62,
+    "wageGrade": "B+",
+    "securityGrade": "B−",
+    "balanceRating": 7.1,
+    "positions": [
+      "Financial Advisor",
+      "Actuary",
+      "Underwriter",
+      "Software Developer",
+      "Customer Service Manager"
+    ]
+  },
+  {
+    "id": "fairfax-financial",
+    "name": "Fairfax Financial",
+    "sector": "Finance",
+    "initials": "FFH",
+    "accentColor": "#1A1A2E",
+    "accentBg": "#F5F5F5",
+    "wageScore": 83,
+    "securityScore": 74,
+    "balanceScore": 60,
+    "growthScore": 70,
+    "wageGrade": "A−",
+    "securityGrade": "C+",
+    "balanceRating": 6,
+    "positions": [
+      "Insurance Analyst",
+      "Investment Manager",
+      "Underwriter",
+      "Risk Manager",
+      "Actuary"
+    ]
+  },
+  {
+    "id": "aecon",
+    "name": "Aecon Group",
+    "sector": "Engineering & Construction",
+    "initials": "AEG",
+    "accentColor": "#CC0000",
+    "accentBg": "#FEF2F2",
+    "wageScore": 70,
+    "securityScore": 68,
+    "balanceScore": 58,
+    "growthScore": 65,
+    "wageGrade": "C",
+    "securityGrade": "C",
+    "balanceRating": 5.8,
+    "positions": [
+      "Civil Engineer",
+      "Project Manager",
+      "Construction Supervisor",
+      "Estimator",
+      "Safety Officer"
+    ]
+  },
+  {
+    "id": "ellisdon",
+    "name": "EllisDon",
+    "sector": "Engineering & Construction",
+    "initials": "ED",
+    "accentColor": "#E87722",
+    "accentBg": "#FFF7ED",
+    "wageScore": 71,
+    "securityScore": 69,
+    "balanceScore": 59,
+    "growthScore": 63,
+    "wageGrade": "C",
+    "securityGrade": "C",
+    "balanceRating": 5.9,
+    "positions": [
+      "Project Manager",
+      "Construction Manager",
+      "Site Supervisor",
+      "Estimator",
+      "Engineer"
+    ]
+  },
+  {
+    "id": "lululemon",
+    "name": "lululemon",
+    "sector": "Retail",
+    "initials": "LL",
+    "accentColor": "#98002E",
+    "accentBg": "#FFF1F2",
+    "wageScore": 72,
+    "securityScore": 65,
+    "balanceScore": 72,
+    "growthScore": 75,
+    "wageGrade": "C+",
+    "securityGrade": "C−",
+    "balanceRating": 7.2,
+    "positions": [
+      "Retail Associate",
+      "Store Manager",
+      "Product Designer",
+      "Software Engineer",
+      "Supply Chain Analyst"
+    ]
+  },
+  {
+    "id": "aritzia",
+    "name": "Aritzia",
+    "sector": "Retail",
+    "initials": "AR",
+    "accentColor": "#2C2C2C",
+    "accentBg": "#F5F5F5",
+    "wageScore": 64,
+    "securityScore": 63,
+    "balanceScore": 60,
+    "growthScore": 68,
+    "wageGrade": "D+",
+    "securityGrade": "C−",
+    "balanceRating": 6,
+    "positions": [
+      "Style Advisor",
+      "Store Manager",
+      "Buyer",
+      "Marketing Coordinator",
+      "E-commerce Analyst"
+    ]
+  },
+  {
+    "id": "kinaxis",
+    "name": "Kinaxis",
+    "sector": "Technology",
+    "initials": "KX",
+    "accentColor": "#E4002B",
+    "accentBg": "#FEF2F2",
+    "wageScore": 83,
+    "securityScore": 73,
+    "balanceScore": 74,
+    "growthScore": 80,
+    "wageGrade": "A−",
+    "securityGrade": "C+",
+    "balanceRating": 7.4,
+    "positions": [
+      "Software Engineer",
+      "Supply Chain Consultant",
+      "Product Manager",
+      "Data Analyst",
+      "Solutions Architect"
+    ]
   }
 ]
